@@ -138,6 +138,18 @@
       <UserCode>true</UserCode>
       <id>1549dbf2-ee03-4870-9c6f-e9226c2b0e01</id>
     </Compile>
+    <Compile Include="LaunchRanorexDocument.cs">
+      <BoundTo>b71e9626-4342-4250-9065-071f14fb112c</BoundTo>
+      <DependentUpon>LaunchRanorexDocument.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c9e9f19b-783e-46f6-b526-19b3ac89b0e9</id>
+    </Compile>
+    <Compile Include="LaunchRanorexDocument.UserCode.cs">
+      <BoundTo>b71e9626-4342-4250-9065-071f14fb112c</BoundTo>
+      <DependentUpon>LaunchRanorexDocument.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bce29e53-e8d0-4eb3-b631-6ede0e34b208</id>
+    </Compile>
     <Compile Include="OpenBrowser.cs">
       <BoundTo>fa81bf4b-0a35-48a0-b29c-804ca5db3102</BoundTo>
       <DependentUpon>OpenBrowser.rxrec</DependentUpon>
@@ -180,6 +192,11 @@
       <BoundTo>06d484e1-f578-4c97-8595-11abd3c3275c</BoundTo>
       <id>441536fc-4918-4738-bda0-679358b631d9</id>
       <recordtableid>00f03b89-cc96-4daf-84c9-efec38e637be</recordtableid>
+    </None>
+    <None Include="LaunchRanorexDocument.rxrec">
+      <BoundTo>06d484e1-f578-4c97-8595-11abd3c3275c</BoundTo>
+      <id>b71e9626-4342-4250-9065-071f14fb112c</id>
+      <recordtableid>e5c8aff7-656d-412c-b074-d6606e9ffad7</recordtableid>
     </None>
     <None Include="OpenBrowser.rxrec">
       <BoundTo>06d484e1-f578-4c97-8595-11abd3c3275c</BoundTo>

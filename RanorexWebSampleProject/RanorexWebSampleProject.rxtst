@@ -9,13 +9,23 @@
 			type="Recording">
 			</testmodule>
 			<testcase
+			id="1f71b6f8-54e2-46f7-8876-582a891b6ef2"
+			name="RanorexDocumentation">
+			</testcase>
+			<testcase
 			id="28a122ea-a192-4535-af73-3137413d3904"
-			name="TestCase">
+			name="RanorexSoftwareDownloadForm">
 			</testcase>
 			<setup
 			id="39afed53-63aa-49ed-9338-58c31e168489"
 			name="setup">
 			</setup>
+			<testmodule
+			id="4423dc64-e401-444b-82cb-c7a92a67c067"
+			name="LaunchRanorexDocument"
+			ref="e5c8aff7-656d-412c-b074-d6606e9ffad7"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="4a05a1c3-e5eb-4541-925e-83fad12f6961"
 			name="teardown">
@@ -71,7 +81,7 @@
 				name="RanorexWebSampleProject">
 					<testcase
 					id="28a122ea-a192-4535-af73-3137413d3904"
-					name="TestCase">
+					name="RanorexSoftwareDownloadForm">
 						<setup
 						id="39afed53-63aa-49ed-9338-58c31e168489"
 						name="setup">
@@ -93,6 +103,14 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="1f71b6f8-54e2-46f7-8876-582a891b6ef2"
+					name="RanorexDocumentation">
+						<testmodule
+						id="4423dc64-e401-444b-82cb-c7a92a67c067"
+						name="LaunchRanorexDocument">
+						</testmodule>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -100,11 +118,20 @@
 	<datasources>
 	</datasources>
 	<testconfigurations
-	default="TestRun">
+	default="RanorexSoftwareDownload">
 		<testconfiguration
-		name="TestRun">
+		name="RanorexSoftwareDownload">
 			<testcontainer
 			id="28a122ea-a192-4535-af73-3137413d3904">
+			</testcontainer>
+			<testcontainer
+			id="6b3ba96e-90a6-4885-8fd1-21ae52c6f0d6">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="RnorexDocument">
+			<testcontainer
+			id="1f71b6f8-54e2-46f7-8876-582a891b6ef2">
 			</testcontainer>
 			<testcontainer
 			id="6b3ba96e-90a6-4885-8fd1-21ae52c6f0d6">

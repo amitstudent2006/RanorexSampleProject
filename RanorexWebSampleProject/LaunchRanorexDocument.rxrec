@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e5c8aff7-656d-412c-b074-d6606e9ffad7"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="LaunchRanorexDocument"
+	namespace="RanorexWebSampleProject">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.ranorex.com/help/latest/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="4cea6aa4-f90b-4043-a806-db68be02d8fe"
+	name="RanorexWebSampleProjectRepository"
+	relativepath="RanorexWebSampleProjectRepository.rxrep">
+		<codegen
+		classname="RanorexWebSampleProjectRepository"
+		namespace="RanorexWebSampleProject">
+		</codegen>
+		<rootfolder
+		id="a85f5746-055d-4269-a0e1-c10dcacb3922"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		LaunchRanorexDocument.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
